@@ -19,7 +19,6 @@ $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit vendor blobs
 $(call inherit-product-if-exists, vendor/mediatek/mt6582/mt6582-vendor.mk)
